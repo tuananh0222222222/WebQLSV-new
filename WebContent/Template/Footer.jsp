@@ -1,18 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 
     
          
-            <!-- End of Footer -->
+     
 
-        </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+  <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
@@ -24,7 +17,7 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
+                        <span aria-hidden="true">Ã—</span>
                     </button>
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
@@ -35,8 +28,8 @@
             </div>
         </div>
     </div>
-
-    <!-- Bootstrap core JavaScript-->
+    
+      <!-- Bootstrap core JavaScript-->
     <script src="./Template/vendor/jquery/jquery.min.js"></script>
     <script src="./Template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -56,3 +49,4 @@
 </body>
 
 </html>
+   

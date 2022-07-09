@@ -37,8 +37,8 @@
 	                                        <td><p><%=item.getNameClass() %></p></td>
 	                                    
 	                                        <td> 
-	                                        <a href="./HandingClassroom?Id=<%=item.getId() %>" class=" btn btn-primary">Chi tiết</a>
-	                                        <a href="./DelClassroom?Id=<%=item.getId() %>" class=" btn btn-danger">Xóa</a>
+	                                        <a href="./HandingClassroom?Id=<%=item.getId() %>" class="btn-sm btn btn-primary">Chi tiết</a>
+	                                        <a href="./DelClassroom?Id=<%=item.getId() %>" class="btn-sm btn btn-danger">Xóa</a>
 	                                        </td>
 	                                    </tr>
 	                                		

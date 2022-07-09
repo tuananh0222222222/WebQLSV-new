@@ -20,8 +20,8 @@
 			                            <input type="text" class="form-control" " name="classroom-name" >
 			                        </div>
 			                       
-			                        <button type="submit" class="btn btn-primary">Thêm</button>
-			                        <a href="./ListClassroom" class="btn btn-info">Quay lại</a>
+			                        <button type="submit" class="ml-2 btn-sm btn btn-primary">Thêm</button>
+			                        <a href="./ListClassroom" class="btn btn-sm btn-info">Quay lại</a>
 	                      	</form>
                  
                        

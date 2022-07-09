@@ -62,7 +62,18 @@
 
             </div>
             <!-- End of Main Content -->
-			
+           
+            
+            </div>
             <!-- Footer -->
-             <jsp:include page="./Template/Footer.jsp"></jsp:include>
-      
+          </div>
+           
+               <!-- Scroll to Top Button-->
+   </div>
+   
+  <jsp:include page="./Template/Footer.jsp"></jsp:include>
+   
+   
+   
+   
+   

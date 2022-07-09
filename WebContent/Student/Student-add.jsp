@@ -1,12 +1,57 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
 
-</body>
-</html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+ 
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Thêm Môn</h1>
+                        
+                    </div>
+
+                    <!-- Content Row -->
+                  
+                     <form action="./AddStudent" method="post" style="width: 700px;">
+                        <button type="submit" class="ml-2 btn-sm btn btn-primary">Thêm</button>
+                        
+                        <a href="./ListStudent" class="btn btn-sm btn-info">Quay lại</a>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">ID</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Họ tên</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Giới tính</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Ngày sinh</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Số điện thoại</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Địa chỉ</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Lớp ID</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                       
+                     
+                      </form>
+                        </div>
+                       
+                    </div>
+                    <!-- Content Row -->
+                   
+
+               
+      

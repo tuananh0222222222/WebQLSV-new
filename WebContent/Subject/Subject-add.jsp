@@ -1,5 +1,5 @@
-<%@page import="com.DAO.classroomsDAO"%>
-<%@page import="com.Model.classrooms"%>
+
+
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -21,9 +21,9 @@
                             <input type="text" class="form-control" " name="subject-name" >
                         </div>
                        
-                        <button type="submit" class="btn btn-primary">Thêm</button>
+                        <button type="submit" class="ml-2 btn-sm btn btn-primary">Thêm</button>
                         
-                        <a href="./ListSubject" class="btn btn-info">Quay lại</a>
+                        <a href="./ListSubject" class="btn btn-sm btn-info">Quay lại</a>
                       </form>
                         </div>
                        

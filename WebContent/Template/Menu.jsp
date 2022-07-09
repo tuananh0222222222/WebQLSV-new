@@ -41,7 +41,7 @@
 	                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 	                    <div class="bg-white py-2 collapse-inner rounded">
 	                        <h6 class="collapse-header">Mục quản lý:</h6>
-	                        <a class="collapse-item" href="#">Danh sách sinh viên</a>
+	                        <a class="collapse-item" href="./ListStudent">Danh sách sinh viên</a>
 	                        <a class="collapse-item" href="./ListClassroom">Lớp học</a>
 	                        <a class="collapse-item" href="./ListSubject">Môn học</a>
 	                        <a class="collapse-item" href="#">Điểm</a>

@@ -12,7 +12,7 @@ body {
 }
 
 .table {
-    width: 100%;
+    width: auto;
 }
 
 .table_header {
@@ -65,8 +65,8 @@ input {
     overflow: auto;
 }
 
-table {
-    width: 100%;
+.table {
+    width: auto;
     table-layout: fixed;
     min-width: 900px;
     border-collapse: collapse;

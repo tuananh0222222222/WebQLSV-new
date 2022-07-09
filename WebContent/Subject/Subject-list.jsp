@@ -41,8 +41,8 @@
 	                                        <td><p><%=item.getNameSubject() %></p></td>
 	                                    
 	                                        <td> 
-	                                        <a href="./HandingSubject?Id=<%=item.getId() %>" class=" btn btn-primary">Chi tiết</a>
-	                                        <a href="./DelSubject?Id=<%=item.getId() %>" class=" btn btn-danger">Xóa</a>
+	                                        <a href="./HandingSubject?Id=<%=item.getId() %>" class=" btn btn-primary btn-sm">Chi tiết</a>
+	                                        <a href="./DelSubject?Id=<%=item.getId() %>" class=" btn btn-danger btn-sm">Xóa</a>
 	                                        </td>
 	                                    </tr>
 	                                		

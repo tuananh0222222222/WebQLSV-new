@@ -29,7 +29,7 @@
                             <input type="text" class="form-control" value="<%=subject.getNameSubject() %>" name="subject-name" >
                         </div>
                        
-                        <button type="submit" class="btn btn-primary">Sửa</button>
+                        <button type="submit" class="ml-2 btn btn-primary">Sửa</button>
                         <a href="./ListSubject" class="btn btn-info">Quay lại</a>
                       </form>
                         </div>

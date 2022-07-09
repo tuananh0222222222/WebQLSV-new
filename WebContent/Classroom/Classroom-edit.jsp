@@ -14,7 +14,7 @@
                     <!-- Content Row -->
                     <%
                     	int Id = Integer.parseInt(request.getParameter("Id"));
-                         classrooms classroom = classroomsDAO.getClassroomId(Id);
+                        classrooms classroom = classroomsDAO.getClassroomId(Id);
                     %>
                      <form action="./HandingClassroom" method="post" style="width: 700px;">
                         <div class="form-group">
@@ -25,9 +25,10 @@
                             <label for="exampleModalLabel" class="ml-3">Lớp</label>
                             <input type="text" class="form-control" value="<%=classroom.getNameClass() %>" name="classroom-name" >
                         </div>
-                       
-                        <button type="submit" class="btn btn-primary">Sửa</button>
-                        <a href="./ListClassroom" class="btn btn-info">Quay lại</a>
+                       <div class="form-group ">
+                        <button type="submit" class="btn btn-sm btn-primary ml-2">Sửa</button>
+                        <a href="./ListClassroom" class="btn btn-sm btn-info">Quay lại</a>
+                        </div>
                       </form>
                         </div>
                        
