@@ -6,16 +6,14 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Thêm Môn</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Thêm học sinh</h1>
                         
                     </div>
 
                     <!-- Content Row -->
                   
                      <form action="./AddStudent" method="post" style="width: 700px;">
-                        <button type="submit" class="ml-2 btn-sm btn btn-primary">Thêm</button>
                         
-                        <a href="./ListStudent" class="btn btn-sm btn-info">Quay lại</a>
                          <div class="form-group">
                             <label for="exampleModalLabel" class="ml-3">ID</label>
                             <input type="text" class="form-control" " name="subject-name" >
@@ -44,8 +42,11 @@
                             <label for="exampleModalLabel" class="ml-3">Lớp ID</label>
                             <input type="text" class="form-control" " name="subject-name" >
                         </div>
-                       
-                     
+                       <div class="form-group mb-4">
+                     <button type="submit" class=" btn-sm btn btn-primary">Thêm</button>
+                        
+                        <a href="./ListStudent" class="btn btn-sm btn-info ">Quay lại</a>
+                        </div>
                       </form>
                         </div>
                        

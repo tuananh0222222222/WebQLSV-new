@@ -33,7 +33,7 @@
                                         <th>Giới tính</th>
                                         <th>Số điện thoại</th>
                                         <th>Địa chỉ</th>
-                                        <th>Lớp </th>
+                                        <th>Lớp ID</th>
                                         
                                      
                                         

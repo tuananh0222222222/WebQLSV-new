@@ -8,59 +8,50 @@
 
 
                     <!-- Page Heading -->
+                  <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Thông tin môn</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Thông tin học sinh</h1>
                         
                     </div>
 
                     <!-- Content Row -->
                   
-                   <form style="width:700px">
-					  <div class="form-row" >
-					    <div class="form-group col-md-6">
-					      <label for="inputEmail4">Email</label>
-					      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-					    </div>
-					    <div class="form-group col-md-6">
-					      <label for="inputPassword4">Password</label>
-					      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-					    </div>
-					  </div>
-					  <div class="form-group">
-					    <label for="inputAddress">Address</label>
-					    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-					  </div>
-					  <div class="form-group">
-					    <label for="inputAddress2">Address 2</label>
-					    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-					  </div>
-					  <div class="form-row">
-					    <div class="form-group col-md-6">
-					      <label for="inputCity">City</label>
-					      <input type="text" class="form-control" id="inputCity">
-					    </div>
-					    <div class="form-group col-md-4">
-					      <label for="inputState">State</label>
-					      <select id="inputState" class="form-control">
-					        <option selected>Choose...</option>
-					        <option>...</option>
-					      </select>
-					    </div>
-					    <div class="form-group col-md-2">
-					      <label for="inputZip">Zip</label>
-					      <input type="text" class="form-control" id="inputZip">
-					    </div>
-					  </div>
-					  <div class="form-group">
-					    <div class="form-check">
-					      <input class="form-check-input" type="checkbox" id="gridCheck">
-					      <label class="form-check-label" for="gridCheck">
-					        Check me out
-					      </label>
-					    </div>
-					  </div>
-					  <button type="submit" class="btn btn-primary">Sign in</button>
-					</form>
+                     <form action="./AddStudent" method="post" style="width: 700px;">
+                        
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">ID</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Họ tên</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Giới tính</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Ngày sinh</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Số điện thoại</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Địa chỉ</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                         <div class="form-group">
+                            <label for="exampleModalLabel" class="ml-3">Lớp ID</label>
+                            <input type="text" class="form-control" " name="subject-name" >
+                        </div>
+                       <div class="form-group mb-4">
+                     <button type="submit" class=" btn-sm btn btn-primary">Sửa</button>
+                        
+                        <a href="./ListStudent" class="btn btn-sm btn-info ">Quay lại</a>
+                        </div>
+                      </form>
                         </div>
                        
                     </div>
